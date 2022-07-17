@@ -33,7 +33,7 @@ public class UserController {
 
 
     @CrossOrigin()
-    @PostMapping("/users/register")
+    @PostMapping("/users")
     public Status registerUser(@Valid @RequestBody User newUser) {
         List<User> users = userRepository.findAll();
 
@@ -81,7 +81,7 @@ public class UserController {
     }
 
     @CrossOrigin()
-    @DeleteMapping("/users/all")
+    @DeleteMapping("/users")
     public Status deleteUsers() {
         userRepository.deleteAll();
         return Status.SUCCESS;
