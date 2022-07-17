@@ -11,8 +11,6 @@ import spring.boot.rest.service.UserService;
 import spring.boot.rest.user.Role;
 import spring.boot.rest.user.Status;
 import spring.boot.rest.user.User;
-
-
 import javax.validation.Valid;
 import java.util.List;
 
