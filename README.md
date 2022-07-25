@@ -22,6 +22,7 @@ mvn spring-boot:run
 ```bash
 docker-compose up
 ```
+- SwaggerUI for Docker : http://localhost:8090/swagger-ui.html
 
 #### Requirements:
 - MySql Database Server
