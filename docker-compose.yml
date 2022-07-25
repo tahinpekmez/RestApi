@@ -26,39 +26,12 @@ services:
     ports:
       - "8090:8080"
     restart: always
-
     depends_on:
       db :
         condition: service_healthy
     environment:
-#      SPRING_DATASOURCE_URL: jdbc:mysql://mysql-db:3306/userDB?createDatabaseIfNotExist=true&useSSL=false
       SPRING_DATASOURCE_URL: jdbc:mysql://mysql-db:3306/myData?createDatabaseIfNotExist=true&useSSL=false
       SPRING_DATASOURCE_USERNAME: root
       SPRING_DATASOURCE_PASSWORD: Home3491*?
 
-#version: "2.6.1"
-#services:
-#  springboot-app:
-#    # container_name: spring-app
-#    image: springbooot-app
-#    restart: always
-#    build: .
-#    ports:
-#      - 8000-8999:8080
-#    environment:
-#      MYSQL_HOST: mysqldb
-#      MYSQL_USER: root
-#      MYSQL_PASSWORD: Home3491*?
-#      MYSQL_PORT: 3306
-#
-#
-#  mysqldb:
-#    container_name: mysqldb
-#    image: mysql:8.0.29
-#    volumes:
-#      -  /Users/muratersoy/db:/usr/local/mysql
-#    ports:
-#      - 3306:3306
-#    environment:
-#      MYSQL_DATABASE: myData
-#      MYSQL_ROOT_PASSWORD: Home3491*?
+
