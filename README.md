@@ -17,7 +17,7 @@ mvn spring-boot:run
 ```
 - SwaggerUI : http://localhost:8080/swagger-ui.html
 
-#OR FOR RUN VIA DOCKER
+# OR FOR RUN VIA DOCKER
 
 ```bash
 docker-compose up
