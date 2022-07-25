@@ -24,7 +24,7 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "8090:8080"
+      - "8080:8080"
     restart: always
     depends_on:
       db :
