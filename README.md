@@ -5,10 +5,10 @@ User Manager is a sample tiny application that performs CRUD jobs on User Entity
 It exposes 5 endpoint as following list :
 
 - GET /users (get a list of members)
-- POST /users/register (create a member)
+- POST /users (create a member)
 - POST /users/login (member login)
 - POST /users/logUserOut (member logout)
-- DELETE /users/all (delete members)
+- DELETE /users (delete members)
 
 
 ## How to use
